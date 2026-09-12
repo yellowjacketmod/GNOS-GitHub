@@ -11,4 +11,5 @@ https://snap.berkeley.edu/project?username=gimpnotepad&projectname=GNOS
 > GNOS requires JavaScript Object Notation (.json),
 > BrainTest's TypeScript Object Notation (.tson),
 > BrainTest Simple Service (.btssv),
+> BrainTest (.btx),
 > and Python (.py) to run my version of GNOS.
