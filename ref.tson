@@ -1,0 +1,29 @@
+{
+  "name": "GNOS",
+  "type": "customOperatingSystem",
+  "startupSound": "file:startup.ogg",
+  "startupLogo": "file:startuplogo.avif",
+  "BrainTestSimpleServiceCode": <
+    Namespace 'GNOS'
+    Import logo as IMAGE-'startuplogo.avif'
+    Import start as IMAGE-'gnos-start.avif'
+    Write logo as _LOGO_
+    Write start as _UI_
+    If start clicked: // condition
+      Show Menu with items:
+        'User':
+          'Shutdown'
+          'Restart'
+        END
+        'Apps':
+          'Explorer'
+        END
+        'Games':
+          "Don't make a sound"
+          'Read a file'
+        END
+      END
+    END
+    
+  >
+}
