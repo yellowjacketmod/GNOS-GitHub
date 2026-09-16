@@ -1,0 +1,11 @@
+{
+  "moduleName": "gnosmodule",
+  "moduleType": "os",
+  "moduleJson": {
+    "isCompiled": true,
+    "language": "BrainTest",
+    "isValid": true,
+    "hasLicense": false
+  }
+  "moduleIconFile": "icon.ico"
+}
