@@ -1,0 +1,11 @@
+{
+  "moduleName": "panel",
+  "moduleType": "properties",
+  "moduleFor": "program",
+  "moduleVariable": "pan",
+  "moduleJson": {
+    "isCompiled": true,
+    "isValid": false,
+    "language": "BrainTest"
+  }
+}
