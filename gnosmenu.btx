@@ -1,0 +1,14 @@
+import gnosmodule;
+import panel;
+
+BrainTest Main {
+  public block pypgame() {
+    writePython("python/GNOS-resource.py");
+    if (squareClicked) {
+      showMenus("gnosmenu.json");
+    }
+  }
+  public class Main {
+    pygame();
+  }
+}
