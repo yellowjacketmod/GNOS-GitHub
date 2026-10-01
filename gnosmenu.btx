@@ -3,7 +3,7 @@ import panel;
 
 BrainTest Main {
   public block pypgame() {
-    writePython("python/GNOS-resource.py");
+    gnosmodule.writePython("python/GNOS-resource.py");
     if (squareClicked) {
       showMenus("gnosmenu.json");
     }
